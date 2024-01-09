@@ -29,7 +29,7 @@ class DbProvider {
       onUpgrade: (db, oldVersion, newVersion) async {
         await _update(db, oldVersion, newVersion);
       },
-      version: 0,
+      version: 1,
     );
   }
 
